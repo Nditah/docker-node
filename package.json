@@ -1,0 +1,26 @@
+{
+  "name": "docker-node",
+  "version": "1.0.0",
+  "description": "Containerizing a Node.js Application for Development With Docker Compose",
+  "author": "Nditah <nditah@gmail.com>",
+  "license": "MIT",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nditah/docker-node.git"
+  },
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
